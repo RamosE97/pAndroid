@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="80dp"
+        android:textSize="24dp"
+        android:text="Nombre:"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:text="Apellido:"
+        android:textSize="24dp"
+        android:layout_alignLeft="@+id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="220dp"
+        android:text="Correo:"
+        android:textSize="24dp"
+        android:layout_alignLeft="@+id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="290dp"
+        android:text="Contraseña:"
+        android:textSize="24dp"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView5"
+        android:textSize="24dp"
+        android:text="TextView"
+        android:layout_toRightOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/lblApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="128dp"
+        android:textSize="24dp"
+        android:text="TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp" />
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/lblApellido"
+        android:textSize="24dp"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/lblApellido" />
+
+    <TextView
+        android:id="@+id/lblPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginEnd="97dp"
+        android:text="TextView"
+        android:textSize="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="97dp" />
+</RelativeLayout>
