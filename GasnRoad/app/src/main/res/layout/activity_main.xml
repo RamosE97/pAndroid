@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#271f41">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/Second1"
+                android:text="Warren Buffet"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_alignLeft="@+id/Second1" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:text="300 Pts."
+                android:textColor="#ffdc35"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="17dp"
+                android:text="Aprendiz"
+                android:textColor="#fff"
+                android:textSize="10sp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="17dp" />
+
+            <ImageView
+                android:id="@+id/first"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/premium"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@android:color/white"
+        tools:ignore="MissingPrefix">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/second"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:id="@+id/Principal1"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="71dp"
+                android:layout_marginStart="71dp"
+                android:text="Janet Perkins"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignBottom="@+id/Principal1"
+                android:layout_alignLeft="@+id/Principal1"
+                android:layout_alignStart="@+id/Principal1"
+                android:text="1,0000 pts"
+                android:textColor="#737373"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Second3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:text="F1"
+                android:textColor="#737373"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+        <ImageView
+            android:id="@+id/third"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            />
+            <TextView
+                android:id="@+id/Principal2"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="71dp"
+                android:layout_marginStart="71dp"
+                android:text="Mary Johnson"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignBottom="@+id/Principal2"
+                android:layout_alignLeft="@+id/Principal2"
+                android:layout_alignStart="@+id/Principal2"
+                android:text="350 pts"
+                android:textColor="#737373"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Second4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:text="NASCAR"
+                android:textColor="#65c149"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:id="@+id/Principal3"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="71dp"
+                android:layout_marginStart="71dp"
+                android:text="Abbey Christensen"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignBottom="@+id/Principal3"
+                android:layout_alignLeft="@+id/Principal3"
+                android:layout_alignStart="@+id/Principal3"
+                android:text="350 pts"
+                android:textColor="#737373"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Second7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:text="RACING"
+                android:textColor="#29a8df"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:id="@+id/Principal4"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="71dp"
+                android:layout_marginStart="71dp"
+                android:text="Trevor Hansen"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignBottom="@+id/Principal4"
+                android:layout_alignLeft="@+id/Principal4"
+                android:layout_alignStart="@+id/Principal4"
+                android:text="180 pts"
+                android:textColor="#737373"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Second9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:text="LIVIANO"
+                android:textColor="#b4b4b4"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:id="@+id/Principal5"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="71dp"
+                android:layout_marginStart="71dp"
+                android:text="Ali Connors"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Second10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignBottom="@+id/Principal5"
+                android:layout_alignLeft="@+id/Principal5"
+                android:layout_alignStart="@+id/Principal5"
+                android:text="50 pts"
+                android:textColor="#737373"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Second11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="19dp"
+                android:text="APRENDIZ"
+                android:textColor="#ce3e3e"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
